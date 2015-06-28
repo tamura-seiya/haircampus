@@ -1,9 +1,9 @@
 //
-//  SecondViewController.swift
-//  Today's hair
+//  wiViewController.swift
+//  Quiz
 //
-//  Created by tamura seiya on 2015/06/22.
-//  Copyright (c) 2015年 tamura seiya. All rights reserved.
+//  Created by tamura seiya on 2015/06/28.
+//  Copyright (c) 2015年 LifeisTech. All rights reserved.
 //
 
 import UIKit
@@ -31,9 +31,10 @@ class SecondViewController: UIViewController {
     //選択肢のボタン
     @IBOutlet var choiceButtons: Array<UIButton>!
     
+    /*
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
+    */
     
-   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +46,7 @@ class SecondViewController: UIViewController {
         
         //------------------------ここから下にクイズを書く------------------------//
         choiceQuiz()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -60,31 +61,31 @@ class SecondViewController: UIViewController {
             
             choiceButtons[i].tag = i+1;
         }
-    
+//questionArray[random][2] as? Int ==
     }
     @IBAction func choiceAnswer(sender: UIButton) {
         sum++
         println("random \(random)")
-        if questionArray[random][1] as? Int  == sender.tag {
+        if sender.tag == 1 {
             //ポイントを増やす
-            appDelegate.pointbox + 1
-        }else if questionArray[random][2] as? Int == sender.tag {
+            pointbox = pointbox + 1
+        }else if sender.tag == 2 {
             //ポイントを増やす
-            appDelegate.pointbox + 2
-        }else if questionArray[random][3] as? Int == sender.tag {
+            pointbox = pointbox + 2
+        }else if sender.tag == 3 {
             //ポイントを増やす
-            appDelegate.pointbox + 3
+            pointbox = pointbox + 3
         }
         
-
+        
         
         //解いた問題数の合計が予め設定していた問題数に達したら結果画面へ
         if sum == questionNumber {
             self.performSegueToResult()
+        }else{
+            questionArray.removeAtIndex(random)
+            choiceQuiz()
         }
-        questionArray.removeAtIndex(random)
-        choiceQuiz()
-        
         
     }
     
@@ -98,12 +99,12 @@ class SecondViewController: UIViewController {
             
             var ResultView : ThirdViewController = segue.destinationViewController as! ThirdViewController
             
-            ResultView.pointbox = self.pointbox
+            ResultView.pointbox = pointbox
         }
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-}
+    }
 }

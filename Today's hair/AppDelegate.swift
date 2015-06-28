@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    var pointbox:Int!
+    var pointbox:Int?
 
 
 

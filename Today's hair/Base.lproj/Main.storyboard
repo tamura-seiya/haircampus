@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
@@ -78,7 +79,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="choiceAnswer:" destination="ZU3-V0-WpV" eventType="touchUpInside" id="nEI-Uy-Gc5"/>
+                                    <action selector="choiceAnswer:" destination="ZU3-V0-WpV" eventType="touchUpInside" id="ZpF-w8-7Rz"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdU-lt-Haa">
@@ -130,15 +131,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IRm-8d-EIO">
                                 <rect key="frame" x="0.0" y="282" width="375" height="310"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRM-WY-wbl">
-                                <rect key="frame" x="166" y="14" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-QB-2to">
-                                <rect key="frame" x="0.0" y="43" width="375" height="236"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-16-JcB">
                                 <rect key="frame" x="66" y="600" width="242" height="63"/>
                                 <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="0.23999999999999999" colorSpace="calibratedRGB"/>
@@ -148,11 +140,20 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="maR-EK-vXj" kind="show" identifier="toResultView" id="ycc-Gr-qBi"/>
+                                    <segue destination="maR-EK-vXj" kind="show" identifier="toView" id="ycc-Gr-qBi"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-QB-2to">
+                                <rect key="frame" x="0.0" y="43" width="375" height="236"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRM-WY-wbl">
+                                <rect key="frame" x="140" y="14" width="168" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.79118172310000001" blue="0.85691790379999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -178,76 +179,86 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師２.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ubT-PO-2q5">
-                                <rect key="frame" x="0.0" y="28" width="375" height="317"/>
+                                <rect key="frame" x="0.0" y="-45" width="222" height="239"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuI-AB-tJ4">
-                                <rect key="frame" x="53" y="384" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4i-7L-I2i">
-                                <rect key="frame" x="53" y="474" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zae-9K-Cbt">
-                                <rect key="frame" x="164" y="474" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT1-b6-XCp">
-                                <rect key="frame" x="53" y="560" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xug-d0-Yzk">
-                                <rect key="frame" x="164" y="384" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYn-Cj-Dns">
-                                <rect key="frame" x="277" y="384" width="46" height="30"/>
+                                <rect key="frame" x="245" y="177" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niX-jd-avw">
-                                <rect key="frame" x="164" y="560" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bra-OX-YYf">
+                                <rect key="frame" x="7" y="178" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-FC-0Sq">
+                                <rect key="frame" x="140" y="178" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YN-OY-vc1">
-                                <rect key="frame" x="277" y="474" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2N-bH-cGF">
+                                <rect key="frame" x="7" y="338" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laC-wE-Eyf">
-                                <rect key="frame" x="277" y="560" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p61-Ut-zrw">
+                                <rect key="frame" x="140" y="338" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAD-Cg-B77">
+                                <rect key="frame" x="245" y="338" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5h-Gg-xZr">
+                                <rect key="frame" x="7" y="477" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDO-uS-U9W">
+                                <rect key="frame" x="140" y="477" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLx-jU-Pf4">
+                                <rect key="frame" x="245" y="477" width="137" height="131.5"/>
+                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.79118172310000001" blue="0.85691790379999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="btn1" destination="xuI-AB-tJ4" id="rDj-V8-k55"/>
-                        <outlet property="btn2" destination="Xug-d0-Yzk" id="dyV-RI-Pyi"/>
-                        <outlet property="btn3" destination="ZYn-Cj-Dns" id="nCu-Hx-Lf6"/>
-                        <outlet property="btn4" destination="t4i-7L-I2i" id="SGD-j3-rz3"/>
-                        <outlet property="btn5" destination="zae-9K-Cbt" id="QCu-Se-iW9"/>
-                        <outlet property="btn6" destination="7YN-OY-vc1" id="5Z8-4v-bmB"/>
-                        <outlet property="btn7" destination="nT1-b6-XCp" id="ASs-SI-54w"/>
-                        <outlet property="btn8" destination="niX-jd-avw" id="rfx-so-s19"/>
-                        <outlet property="btn9" destination="laC-wE-Eyf" id="DF0-ur-oMT"/>
+                        <outlet property="btn1" destination="bra-OX-YYf" id="iS7-X3-jYJ"/>
+                        <outlet property="btn2" destination="gbX-FC-0Sq" id="qUv-eG-4aL"/>
+                        <outlet property="btn3" destination="ZYn-Cj-Dns" id="NiS-cT-eLo"/>
+                        <outlet property="btn4" destination="q2N-bH-cGF" id="yD0-1N-Lu0"/>
+                        <outlet property="btn5" destination="p61-Ut-zrw" id="7iw-9a-b17"/>
+                        <outlet property="btn6" destination="GAD-Cg-B77" id="CCI-oU-UOy"/>
+                        <outlet property="btn7" destination="x5h-Gg-xZr" id="meW-CR-jHg"/>
+                        <outlet property="btn8" destination="qDO-uS-U9W" id="JwT-fw-Jvj"/>
+                        <outlet property="btn9" destination="XLx-jU-Pf4" id="RIS-9P-GcX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbC-18-fea" userLabel="First Responder" sceneMemberID="firstResponder"/>
