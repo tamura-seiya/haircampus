@@ -30,15 +30,18 @@ class SecondViewController: UIViewController {
     
     //選択肢のボタン
     @IBOutlet var choiceButtons: Array<UIButton>!
+    
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
+    
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //------------------------ここから下にクイズを書く------------------------//
         questionArray.append(["今日の前髪の気分は？","斜め","センター分け","アップ"])
-        questionArray.append(["もみあげは？","2ブロック","ナチュラル","ロング"])
-        questionArray.append(["後ろは？","ロング","アラウンド","ショート"])
-        questionArray.append(["好きなスタイルは？","坊主","ショート","ロング"])
+        questionArray.append(["もみあげはどうする？","2ブロック","ナチュラル","ロング"])
+        questionArray.append(["後ろ髪はどうする？？","ショート","アラウンド","ロング"])
+        questionArray.append(["新しい髪型にチャレンジするなら？？","ショート","坊主","ロング"])
         
         //------------------------ここから下にクイズを書く------------------------//
         choiceQuiz()
@@ -62,23 +65,22 @@ class SecondViewController: UIViewController {
     @IBAction func choiceAnswer(sender: UIButton) {
         sum++
         println("random \(random)")
-        if questionArray[random][1] as! Int == sender.tag {
+        if questionArray[random][1] as? Int  == sender.tag {
             //ポイントを増やす
-            pointbox++
-        }else if questionArray[random][2] as! Int == sender.tag {
+            appDelegate.pointbox + 1
+        }else if questionArray[random][2] as? Int == sender.tag {
             //ポイントを増やす
-            pointbox + 2
-        }else if questionArray[random][3] as! Int == sender.tag {
+            appDelegate.pointbox + 2
+        }else if questionArray[random][3] as? Int == sender.tag {
             //ポイントを増やす
-            pointbox + 3
+            appDelegate.pointbox + 3
         }
         
 
         
-        
         //解いた問題数の合計が予め設定していた問題数に達したら結果画面へ
         if sum == questionNumber {
-            performSegueToResult()
+            self.performSegueToResult()
         }
         questionArray.removeAtIndex(random)
         choiceQuiz()
@@ -88,7 +90,7 @@ class SecondViewController: UIViewController {
     
     
     func performSegueToResult() {
-        performSegueWithIdentifier("toResultView", sender: nil)
+        self.performSegueWithIdentifier("toResultView", sender: nil)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {

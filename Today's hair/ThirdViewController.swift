@@ -13,10 +13,10 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var resultlabel1 :UILabel!
     @IBOutlet weak var resultImage :UIImageView!
-    let ResultPic0: UIImage! = UIImage(named: "stevejobs-e1317891052158.png")
-    let ResultPic1: UIImage! = UIImage(named: "ipod.png")
-    let ResultPic2: UIImage! = UIImage(named: "stevejobswallpaper-ipad.png")
-    let ResultPic3: UIImage! = UIImage(named: "stevejobs1.png")
+    let ResultPic0: UIImage! = UIImage(named: "11.jpg")
+    let ResultPic1: UIImage! = UIImage(named: "10.jpg")
+    let ResultPic2: UIImage! = UIImage(named: "19.jpg")
+    
         
     @IBOutlet weak var button3: UIButton!
     
@@ -27,16 +27,17 @@ class ThirdViewController: UIViewController {
         
         resultlabel1.text = String(format: "君の今日の髪型は%dだ!!!!",pointbox);
         
-        if(pointbox == 5){
-            
+        
+        if(pointbox <= 3){
             resultImage.image = ResultPic0
-        }else if(pointbox >= 3){
+        }else if(pointbox >= 4 && 7 > pointbox ){
             resultImage.image = ResultPic1
-        }else if(pointbox >= 1){
-                resultImage.image = ResultPic2
-        }else if(pointbox == 0){
-            resultImage.image = ResultPic3
+        }else if(pointbox > 6){
+            resultImage.image = ResultPic2
         }
+        
+                
+
         
         // Do any additional setup after loading the view.
     }

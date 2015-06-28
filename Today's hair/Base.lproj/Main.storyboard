@@ -12,23 +12,23 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="toResultView" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toppagemono.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S7X-26-Km9">
-                                <rect key="frame" x="67" y="229" width="240" height="187"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toppage2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UJY-Lu-cz5">
+                                <rect key="frame" x="-12" y="-16" width="387" height="260"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topphonto.final.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cvG-7d-Xax">
-                                <rect key="frame" x="48" y="54" width="279" height="167"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師さん.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cvG-7d-Xax">
+                                <rect key="frame" x="-26" y="20" width="390" height="678"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEX-Lf-7vn">
-                                <rect key="frame" x="162" y="448" width="51" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctC-3w-Fav">
+                                <rect key="frame" x="146" y="531" width="47" height="30"/>
                                 <state key="normal" title="START">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZU3-V0-WpV" kind="show" id="3a9-BG-Cf7"/>
+                                    <segue destination="ZU3-V0-WpV" kind="show" id="2PG-mp-yO5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,19 +53,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAA-ya-sCx">
-                                <rect key="frame" x="164" y="392" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="toResultView" image="美容室.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YgC-rF-3X6">
+                                <rect key="frame" x="-5" y="0.0" width="380" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAA-ya-sCx">
+                                <rect key="frame" x="67" y="396" width="240" height="101"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="button1:" destination="ZU3-V0-WpV" eventType="touchUpInside" id="1l0-d7-A4v"/>
                                     <action selector="choiceAnswer:" destination="ZU3-V0-WpV" eventType="touchUpInside" id="wUB-oI-5Wb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0a-ER-Ez3">
-                                <rect key="frame" x="164" y="450" width="46" height="30"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0a-ER-Ez3">
+                                <rect key="frame" x="67" y="530" width="240" height="101"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="0.28999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -74,13 +83,16 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdU-lt-Haa">
                                 <rect key="frame" x="67" y="93" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7b-7J-ukQ">
-                                <rect key="frame" x="164" y="336" width="46" height="30"/>
+                                <rect key="frame" x="67" y="272" width="240" height="101"/>
+                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="1" alpha="0.47999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -96,42 +108,49 @@
                         <outletCollection property="choiceButtons" destination="mAA-ya-sCx" collectionClass="NSMutableArray" id="OjU-f1-mpo"/>
                         <outletCollection property="choiceButtons" destination="E7b-7J-ukQ" collectionClass="NSMutableArray" id="20j-m3-33N"/>
                         <outletCollection property="choiceButtons" destination="c0a-ER-Ez3" collectionClass="NSMutableArray" id="ldN-t0-g4O"/>
+                        <segue destination="eOh-3W-laQ" kind="modal" identifier="toResultView" id="L6c-un-Xyk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sml-Xj-Kw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807.5" y="314.5"/>
+            <point key="canvasLocation" x="827.5" y="314.5"/>
         </scene>
         <!--toResultView-->
         <scene sceneID="FEn-At-Fct">
             <objects>
-                <viewController storyboardIdentifier="ç" title="toResultView" id="eOh-3W-laQ" customClass="ThirdViewController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="to" title="toResultView" id="eOh-3W-laQ" customClass="ThirdViewController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rue-YV-6UB"/>
                         <viewControllerLayoutGuide type="bottom" id="D68-nL-Zb7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VWw-oL-5TB">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="toResultView" id="VWw-oL-5TB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IRm-8d-EIO">
-                                <rect key="frame" x="54" y="102" width="266" height="282"/>
+                                <rect key="frame" x="0.0" y="282" width="375" height="310"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-16-JcB">
-                                <rect key="frame" x="164" y="529" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="maR-EK-vXj" kind="show" id="ycc-Gr-qBi"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRM-WY-wbl">
-                                <rect key="frame" x="148" y="47" width="42" height="21"/>
+                                <rect key="frame" x="166" y="14" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-QB-2to">
+                                <rect key="frame" x="0.0" y="43" width="375" height="236"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRo-16-JcB">
+                                <rect key="frame" x="66" y="600" width="242" height="63"/>
+                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="0.23999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="19"/>
+                                <state key="normal" title="I want to know more">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="maR-EK-vXj" kind="show" identifier="toResultView" id="ycc-Gr-qBi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </view>
@@ -146,10 +165,10 @@
             </objects>
             <point key="canvasLocation" x="1257.5" y="314.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Forth View Controller-->
         <scene sceneID="O8S-D8-aBt">
             <objects>
-                <viewController id="maR-EK-vXj" sceneMemberID="viewController">
+                <viewController id="maR-EK-vXj" customClass="ForthViewController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qk2-Qz-b87"/>
                         <viewControllerLayoutGuide type="bottom" id="wQq-9r-C8K"/>
@@ -157,18 +176,88 @@
                     <view key="view" contentMode="scaleToFill" id="y7P-Jw-lBq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師２.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ubT-PO-2q5">
+                                <rect key="frame" x="0.0" y="28" width="375" height="317"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuI-AB-tJ4">
+                                <rect key="frame" x="53" y="384" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4i-7L-I2i">
+                                <rect key="frame" x="53" y="474" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zae-9K-Cbt">
+                                <rect key="frame" x="164" y="474" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT1-b6-XCp">
+                                <rect key="frame" x="53" y="560" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xug-d0-Yzk">
+                                <rect key="frame" x="164" y="384" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYn-Cj-Dns">
+                                <rect key="frame" x="277" y="384" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niX-jd-avw">
+                                <rect key="frame" x="164" y="560" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YN-OY-vc1">
+                                <rect key="frame" x="277" y="474" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laC-wE-Eyf">
+                                <rect key="frame" x="277" y="560" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btn1" destination="xuI-AB-tJ4" id="rDj-V8-k55"/>
+                        <outlet property="btn2" destination="Xug-d0-Yzk" id="dyV-RI-Pyi"/>
+                        <outlet property="btn3" destination="ZYn-Cj-Dns" id="nCu-Hx-Lf6"/>
+                        <outlet property="btn4" destination="t4i-7L-I2i" id="SGD-j3-rz3"/>
+                        <outlet property="btn5" destination="zae-9K-Cbt" id="QCu-Se-iW9"/>
+                        <outlet property="btn6" destination="7YN-OY-vc1" id="5Z8-4v-bmB"/>
+                        <outlet property="btn7" destination="nT1-b6-XCp" id="ASs-SI-54w"/>
+                        <outlet property="btn8" destination="niX-jd-avw" id="rfx-so-s19"/>
+                        <outlet property="btn9" destination="laC-wE-Eyf" id="DF0-ur-oMT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbC-18-fea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1672.5" y="314.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth Controller-->
         <scene sceneID="PrE-M3-fDm">
             <objects>
-                <viewController id="u9n-Mb-tqv" sceneMemberID="viewController">
+                <viewController id="u9n-Mb-tqv" customClass="FifthController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ju8-GR-8Gb"/>
                         <viewControllerLayoutGuide type="bottom" id="IRh-iU-LNf"/>
@@ -176,6 +265,29 @@
                     <view key="view" contentMode="scaleToFill" id="5MV-k5-ibT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHB-As-cic">
+                                <rect key="frame" x="43" y="500" width="300" height="100"/>
+                                <state key="normal" backgroundImage="twitterBtn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postToTwitter:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="R6r-vK-2CL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-ma-HdP">
+                                <rect key="frame" x="43" y="368" width="300" height="100"/>
+                                <state key="normal" backgroundImage="facebookBtn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postToFacebook:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="Gs8-Qv-U7p"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crX-Em-CAL">
+                                <rect key="frame" x="43" y="83" width="297" height="237"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -186,7 +298,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="toppagemono.jpg" width="800" height="600"/>
-        <image name="topphonto.final.jpg" width="800" height="400"/>
+        <image name="facebookBtn.png" width="300" height="100"/>
+        <image name="toppage2.jpg" width="1417" height="850"/>
+        <image name="twitterBtn.png" width="300" height="100"/>
+        <image name="美容室.jpg" width="640" height="427"/>
+        <image name="美容師.jpg" width="1856" height="1237"/>
+        <image name="美容師さん.jpg" width="400" height="266"/>
+        <image name="美容師２.jpg" width="800" height="533"/>
     </resources>
 </document>

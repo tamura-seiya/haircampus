@@ -12,7 +12,6 @@
 		974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */; };
 		974D5F301B3BF9FF00BFA546 /* pinterest1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */; };
 		974D5F311B3BF9FF00BFA546 /* toppagemono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */; };
-		974D5F321B3BF9FF00BFA546 /* topphonto.final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2E1B3BF9FF00BFA546 /* topphonto.final.jpg */; };
 		974D5F4D1B3C1E3400BFA546 /* 17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F351B3C1E3400BFA546 /* 17.jpeg */; };
 		974D5F4E1B3C1E3400BFA546 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F361B3C1E3400BFA546 /* 18.jpg */; };
 		974D5F4F1B3C1E3400BFA546 /* 19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F371B3C1E3400BFA546 /* 19.jpeg */; };
@@ -35,6 +34,18 @@
 		974D5F601B3C1E3400BFA546 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F4A1B3C1E3400BFA546 /* 3.jpeg */; };
 		974D5F611B3C1E3400BFA546 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F4B1B3C1E3400BFA546 /* 8.jpg */; };
 		974D5F621B3C1E3400BFA546 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F4C1B3C1E3400BFA546 /* 9.jpg */; };
+		974D5F651B3C275700BFA546 /* 美容師.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F631B3C275700BFA546 /* 美容師.jpg */; };
+		974D5F661B3C275700BFA546 /* 美容師２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F641B3C275700BFA546 /* 美容師２.jpg */; };
+		974D5F681B3D36B400BFA546 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F671B3D36B400BFA546 /* stop.png */; };
+		974D5F6A1B3EE15600BFA546 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F691B3EE15600BFA546 /* ForthViewController.swift */; };
+		974D5F6C1B3EF25500BFA546 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F6B1B3EF25500BFA546 /* FifthViewController.swift */; };
+		974D5F701B3F26AB00BFA546 /* 美容師さん.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F6F1B3F26AB00BFA546 /* 美容師さん.jpg */; };
+		974D5F721B3F299000BFA546 /* toppage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F711B3F299000BFA546 /* toppage.jpg */; };
+		974D5F741B3F2ADF00BFA546 /* toppage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F731B3F2ADF00BFA546 /* toppage2.jpg */; };
+		974D5F761B3F2CBE00BFA546 /* 美容室.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F751B3F2CBE00BFA546 /* 美容室.jpg */; };
+		974D5F7A1B3F323A00BFA546 /* facebookBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F771B3F323A00BFA546 /* facebookBtn.png */; };
+		974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F781B3F323A00BFA546 /* choosePicBtn.png */; };
+		974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F791B3F323A00BFA546 /* twitterBtn.png */; };
 		97FCBF681B380A060037F4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF671B380A060037F4C1 /* AppDelegate.swift */; };
 		97FCBF6A1B380A060037F4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF691B380A060037F4C1 /* ViewController.swift */; };
 		97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FCBF6B1B380A060037F4C1 /* Main.storyboard */; };
@@ -59,7 +70,6 @@
 		974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diver 　宝物探し.jpg"; sourceTree = "<group>"; };
 		974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinterest1.jpg; sourceTree = "<group>"; };
 		974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toppagemono.jpg; sourceTree = "<group>"; };
-		974D5F2E1B3BF9FF00BFA546 /* topphonto.final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topphonto.final.jpg; sourceTree = "<group>"; };
 		974D5F351B3C1E3400BFA546 /* 17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpeg; sourceTree = "<group>"; };
 		974D5F361B3C1E3400BFA546 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
 		974D5F371B3C1E3400BFA546 /* 19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpeg; sourceTree = "<group>"; };
@@ -82,6 +92,18 @@
 		974D5F4A1B3C1E3400BFA546 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		974D5F4B1B3C1E3400BFA546 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		974D5F4C1B3C1E3400BFA546 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		974D5F631B3C275700BFA546 /* 美容師.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師.jpg"; sourceTree = "<group>"; };
+		974D5F641B3C275700BFA546 /* 美容師２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師２.jpg"; sourceTree = "<group>"; };
+		974D5F671B3D36B400BFA546 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		974D5F691B3EE15600BFA546 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		974D5F6B1B3EF25500BFA546 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		974D5F6F1B3F26AB00BFA546 /* 美容師さん.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師さん.jpg"; sourceTree = "<group>"; };
+		974D5F711B3F299000BFA546 /* toppage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toppage.jpg; sourceTree = "<group>"; };
+		974D5F731B3F2ADF00BFA546 /* toppage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toppage2.jpg; sourceTree = "<group>"; };
+		974D5F751B3F2CBE00BFA546 /* 美容室.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室.jpg"; sourceTree = "<group>"; };
+		974D5F771B3F323A00BFA546 /* facebookBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookBtn.png; sourceTree = "<group>"; };
+		974D5F781B3F323A00BFA546 /* choosePicBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choosePicBtn.png; sourceTree = "<group>"; };
+		974D5F791B3F323A00BFA546 /* twitterBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterBtn.png; sourceTree = "<group>"; };
 		97FCBF621B380A060037F4C1 /* Today's hair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's hair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FCBF661B380A060037F4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FCBF671B380A060037F4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +175,7 @@
 		974D5F441B3C1E3400BFA546 /* パーマ */ = {
 			isa = PBXGroup;
 			children = (
+				974D5F671B3D36B400BFA546 /* stop.png */,
 				974D5F451B3C1E3400BFA546 /* 10.jpg */,
 				974D5F461B3C1E3400BFA546 /* 15.jpg */,
 				974D5F471B3C1E3400BFA546 /* 16.jpg */,
@@ -186,15 +209,25 @@
 		97FCBF641B380A060037F4C1 /* Today's hair */ = {
 			isa = PBXGroup;
 			children = (
+				974D5F751B3F2CBE00BFA546 /* 美容室.jpg */,
+				974D5F731B3F2ADF00BFA546 /* toppage2.jpg */,
+				974D5F711B3F299000BFA546 /* toppage.jpg */,
+				974D5F6F1B3F26AB00BFA546 /* 美容師さん.jpg */,
+				974D5F631B3C275700BFA546 /* 美容師.jpg */,
+				974D5F641B3C275700BFA546 /* 美容師２.jpg */,
+				974D5F771B3F323A00BFA546 /* facebookBtn.png */,
+				974D5F781B3F323A00BFA546 /* choosePicBtn.png */,
+				974D5F791B3F323A00BFA546 /* twitterBtn.png */,
 				974D5F331B3C1E3400BFA546 /* hairimage */,
 				974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */,
 				974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */,
 				974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */,
-				974D5F2E1B3BF9FF00BFA546 /* topphonto.final.jpg */,
 				97FCBF671B380A060037F4C1 /* AppDelegate.swift */,
 				97FCBF691B380A060037F4C1 /* ViewController.swift */,
 				974D5F271B380DA700BFA546 /* SecondViewController.swift */,
 				974D5F291B38156500BFA546 /* ThirdViewController.swift */,
+				974D5F691B3EE15600BFA546 /* ForthViewController.swift */,
+				974D5F6B1B3EF25500BFA546 /* FifthViewController.swift */,
 				97FCBF6B1B380A060037F4C1 /* Main.storyboard */,
 				97FCBF6E1B380A060037F4C1 /* Images.xcassets */,
 				97FCBF701B380A060037F4C1 /* LaunchScreen.xib */,
@@ -308,7 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974D5F741B3F2ADF00BFA546 /* toppage2.jpg in Resources */,
 				974D5F5F1B3C1E3400BFA546 /* 21.jpg in Resources */,
+				974D5F681B3D36B400BFA546 /* stop.png in Resources */,
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
@@ -323,19 +358,26 @@
 				974D5F601B3C1E3400BFA546 /* 3.jpeg in Resources */,
 				974D5F4F1B3C1E3400BFA546 /* 19.jpeg in Resources */,
 				974D5F581B3C1E3400BFA546 /* 2.jpg in Resources */,
+				974D5F721B3F299000BFA546 /* toppage.jpg in Resources */,
 				974D5F4D1B3C1E3400BFA546 /* 17.jpeg in Resources */,
 				974D5F551B3C1E3400BFA546 /* 12.jpg in Resources */,
 				974D5F5C1B3C1E3400BFA546 /* 15.jpg in Resources */,
+				974D5F651B3C275700BFA546 /* 美容師.jpg in Resources */,
+				974D5F661B3C275700BFA546 /* 美容師２.jpg in Resources */,
 				97FCBF6F1B380A060037F4C1 /* Images.xcassets in Resources */,
+				974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */,
 				974D5F5B1B3C1E3400BFA546 /* 10.jpg in Resources */,
 				974D5F611B3C1E3400BFA546 /* 8.jpg in Resources */,
 				974D5F4E1B3C1E3400BFA546 /* 18.jpg in Resources */,
-				974D5F321B3BF9FF00BFA546 /* topphonto.final.jpg in Resources */,
 				974D5F301B3BF9FF00BFA546 /* pinterest1.jpg in Resources */,
 				974D5F501B3C1E3400BFA546 /* 19.jpg in Resources */,
+				974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */,
 				974D5F5A1B3C1E3400BFA546 /* 5.png in Resources */,
+				974D5F701B3F26AB00BFA546 /* 美容師さん.jpg in Resources */,
 				974D5F621B3C1E3400BFA546 /* 9.jpg in Resources */,
+				974D5F761B3F2CBE00BFA546 /* 美容室.jpg in Resources */,
 				974D5F511B3C1E3400BFA546 /* 4.jpeg in Resources */,
+				974D5F7A1B3F323A00BFA546 /* facebookBtn.png in Resources */,
 				974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,10 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974D5F6C1B3EF25500BFA546 /* FifthViewController.swift in Sources */,
 				974D5F281B380DA700BFA546 /* SecondViewController.swift in Sources */,
 				97FCBF6A1B380A060037F4C1 /* ViewController.swift in Sources */,
 				974D5F2A1B38156500BFA546 /* ThirdViewController.swift in Sources */,
 				97FCBF681B380A060037F4C1 /* AppDelegate.swift in Sources */,
+				974D5F6A1B3EE15600BFA546 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Today's hair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -495,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Today's hair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
