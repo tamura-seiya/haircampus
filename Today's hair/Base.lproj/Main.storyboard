@@ -128,6 +128,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diver 　宝物探し.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fg3-wL-ZLa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IRm-8d-EIO">
                                 <rect key="frame" x="0.0" y="282" width="375" height="310"/>
                             </imageView>
@@ -143,15 +146,15 @@
                                     <segue destination="maR-EK-vXj" kind="show" identifier="toView" id="ycc-Gr-qBi"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-QB-2to">
-                                <rect key="frame" x="0.0" y="43" width="375" height="236"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRM-WY-wbl">
-                                <rect key="frame" x="140" y="14" width="168" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRM-WY-wbl">
+                                <rect key="frame" x="30" y="25" width="278" height="90"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-QB-2to">
+                                <rect key="frame" x="0.0" y="123" width="256" height="159"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.79118172310000001" blue="0.85691790379999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -178,72 +181,104 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容師２.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ubT-PO-2q5">
-                                <rect key="frame" x="0.0" y="-45" width="222" height="239"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toppage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9cT-9U-LVV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYn-Cj-Dns">
-                                <rect key="frame" x="245" y="177" width="137" height="131.5"/>
-                                <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bra-OX-YYf">
-                                <rect key="frame" x="7" y="178" width="137" height="131.5"/>
+                                <rect key="frame" x="16" y="8" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn1" destination="maR-EK-vXj" eventType="touchUpInside" id="N4u-Y4-LMb"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" identifier="" id="JQa-SF-o1Y"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbX-FC-0Sq">
-                                <rect key="frame" x="140" y="178" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDa-Ga-w56">
+                                <rect key="frame" x="200" y="8" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn2" destination="maR-EK-vXj" eventType="touchUpInside" id="fpz-B5-dR5"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="0Ys-cL-w3t"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2N-bH-cGF">
-                                <rect key="frame" x="7" y="338" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xX2-vU-PO3">
+                                <rect key="frame" x="16" y="177" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn3" destination="maR-EK-vXj" eventType="touchUpInside" id="vhf-xk-CvB"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="LUc-JL-xAe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p61-Ut-zrw">
-                                <rect key="frame" x="140" y="338" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaI-z0-EiT">
+                                <rect key="frame" x="200" y="177" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn4" destination="maR-EK-vXj" eventType="touchUpInside" id="s7S-xz-TBH"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="dok-UN-pkd"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAD-Cg-B77">
-                                <rect key="frame" x="245" y="338" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdF-72-XTI">
+                                <rect key="frame" x="16" y="348" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn5" destination="maR-EK-vXj" eventType="touchUpInside" id="VZU-u8-z19"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="XoE-Bh-zMn"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5h-Gg-xZr">
-                                <rect key="frame" x="7" y="477" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxl-tu-q5R">
+                                <rect key="frame" x="200" y="348" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn6" destination="maR-EK-vXj" eventType="touchUpInside" id="M2f-WW-zj5"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="X0p-uJ-8GC"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDO-uS-U9W">
-                                <rect key="frame" x="140" y="477" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aA1-17-yYL">
+                                <rect key="frame" x="16" y="503" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn7" destination="maR-EK-vXj" eventType="touchUpInside" id="IlS-v2-wNU"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" id="zFb-DK-sN0"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLx-jU-Pf4">
-                                <rect key="frame" x="245" y="477" width="137" height="131.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTX-I9-ZNl">
+                                <rect key="frame" x="200" y="503" width="168" height="147"/>
                                 <rect key="contentStretch" x="0.050000000000000017" y="0.0" width="1" height="1"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="choicebtn8" destination="maR-EK-vXj" eventType="touchUpInside" id="hN7-k5-uFk"/>
+                                    <segue destination="u9n-Mb-tqv" kind="show" identifier="toView" id="Auk-Y4-8pF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.79118172310000001" blue="0.85691790379999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -251,24 +286,24 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="btn1" destination="bra-OX-YYf" id="iS7-X3-jYJ"/>
-                        <outlet property="btn2" destination="gbX-FC-0Sq" id="qUv-eG-4aL"/>
-                        <outlet property="btn3" destination="ZYn-Cj-Dns" id="NiS-cT-eLo"/>
-                        <outlet property="btn4" destination="q2N-bH-cGF" id="yD0-1N-Lu0"/>
-                        <outlet property="btn5" destination="p61-Ut-zrw" id="7iw-9a-b17"/>
-                        <outlet property="btn6" destination="GAD-Cg-B77" id="CCI-oU-UOy"/>
-                        <outlet property="btn7" destination="x5h-Gg-xZr" id="meW-CR-jHg"/>
-                        <outlet property="btn8" destination="qDO-uS-U9W" id="JwT-fw-Jvj"/>
-                        <outlet property="btn9" destination="XLx-jU-Pf4" id="RIS-9P-GcX"/>
+                        <outlet property="btn2" destination="JDa-Ga-w56" id="CsF-Wd-nKn"/>
+                        <outlet property="btn3" destination="xX2-vU-PO3" id="uet-6y-O7g"/>
+                        <outlet property="btn4" destination="BaI-z0-EiT" id="jz3-eq-Fh9"/>
+                        <outlet property="btn5" destination="JdF-72-XTI" id="aIm-O2-R9p"/>
+                        <outlet property="btn6" destination="lxl-tu-q5R" id="ngV-kO-2Dx"/>
+                        <outlet property="btn7" destination="aA1-17-yYL" id="Wok-g2-wh6"/>
+                        <outlet property="btn8" destination="FTX-I9-ZNl" id="jda-Qz-MZD"/>
+                        <segue destination="u9n-Mb-tqv" kind="show" identifier="tonextView" id="T5k-zd-wbf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbC-18-fea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.5" y="314.5"/>
+            <point key="canvasLocation" x="1679.5" y="314.5"/>
         </scene>
-        <!--Fifth Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="PrE-M3-fDm">
             <objects>
-                <viewController id="u9n-Mb-tqv" customClass="FifthController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u9n-Mb-tqv" customClass="FifthViewController" customModule="Today_s_hair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ju8-GR-8Gb"/>
                         <viewControllerLayoutGuide type="bottom" id="IRh-iU-LNf"/>
@@ -277,6 +312,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinterest1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gYC-MQ-e5c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHB-As-cic">
                                 <rect key="frame" x="43" y="500" width="300" height="100"/>
                                 <state key="normal" backgroundImage="twitterBtn.png">
@@ -295,13 +333,16 @@
                                     <action selector="postToFacebook:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="Gs8-Qv-U7p"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crX-Em-CAL">
-                                <rect key="frame" x="43" y="83" width="297" height="237"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-uD-56N">
+                                <rect key="frame" x="22" y="118" width="291" height="222"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lastImage" destination="tgR-uD-56N" id="dGz-QV-PTL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eGi-Hm-45f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -309,12 +350,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="diver 　宝物探し.jpg" width="736" height="1104"/>
         <image name="facebookBtn.png" width="300" height="100"/>
+        <image name="pinterest1.jpg" width="425" height="600"/>
+        <image name="toppage.jpg" width="1417" height="850"/>
         <image name="toppage2.jpg" width="1417" height="850"/>
         <image name="twitterBtn.png" width="300" height="100"/>
         <image name="美容室.jpg" width="640" height="427"/>
         <image name="美容師.jpg" width="1856" height="1237"/>
         <image name="美容師さん.jpg" width="400" height="266"/>
-        <image name="美容師２.jpg" width="800" height="533"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JQa-SF-o1Y"/>
+    </inferredMetricsTieBreakers>
 </document>

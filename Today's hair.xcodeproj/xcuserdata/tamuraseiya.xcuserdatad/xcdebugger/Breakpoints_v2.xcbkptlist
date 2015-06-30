@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Today&apos;s hair/FifthViewController.swift"
-            timestampString = "457126244.263515"
+            timestampString = "457304540.025027"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "createPostView(_:)"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "ImagePickerController(_:didFinishPickingImage:editingInfo:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Today&apos;s hair/FifthViewController.swift"
-            timestampString = "457126252.700125"
+            filePath = "Today&apos;s hair/ForthViewController.swift"
+            timestampString = "457306603.705317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "ImagePickerController(_:didFinishPickingImage:editingInfo:)"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "ForthViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today&apos;s hair/ForthViewController.swift"
+            timestampString = "457306656.870352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "choicebtn2()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

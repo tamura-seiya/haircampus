@@ -12,6 +12,10 @@ class ForthViewController: UIViewController {
     
     //pointbox定義
     var pointbox:Int!
+    var operation :Int = 0
+    var operation2 :Int = 0
+    
+    
     
     @IBOutlet weak var btn1: UIButton!
     @IBOutlet weak var btn2: UIButton!
@@ -21,12 +25,7 @@ class ForthViewController: UIViewController {
     @IBOutlet weak var btn6: UIButton!
     @IBOutlet weak var btn7: UIButton!
     @IBOutlet weak var btn8: UIButton!
-    @IBOutlet weak var btn9: UIButton!
-
-
-
-    
-    
+   
  /*pointbox取得
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
     appDelegate.pointbox = appDelegate.pointbox */
@@ -58,7 +57,7 @@ class ForthViewController: UIViewController {
     let ResultPic25: UIImage! = UIImage(named: "25.jpeg")
     let ResultPic26: UIImage! = UIImage(named: "26.jpeg")
     let ResultPic27: UIImage! = UIImage(named: "27.jpeg")
-   let ResultPic28: UIImage! = UIImage(named: "19.jpg")
+    let ResultPic28: UIImage! = UIImage(named: "19.jpg")
     
     
 
@@ -80,6 +79,11 @@ class ForthViewController: UIViewController {
                 btn5.setBackgroundImage(ResultPic14, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic22, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic25, forState: .Normal)
+                btn7.setBackgroundImage(ResultPic25, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic25, forState: .Normal)
+                operation2 + 1
+                
+                
                 
             }else if (pointbox >= 4 && 7 > pointbox){
                 btn1.setBackgroundImage(ResultPic17, forState: .Normal)
@@ -88,6 +92,10 @@ class ForthViewController: UIViewController {
                 btn4.setBackgroundImage(ResultPic4, forState: .Normal)
                 btn5.setBackgroundImage(ResultPic6, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic7, forState: .Normal)
+                btn7.setBackgroundImage(ResultPic7, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic7, forState: .Normal)
+                operation2 + 2
+                
                
             }else if (pointbox > 6){
                 btn1.setBackgroundImage(ResultPic10, forState: .Normal)
@@ -97,16 +105,67 @@ class ForthViewController: UIViewController {
                 btn5.setBackgroundImage(ResultPic21, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic3, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic8, forState: .Normal)
-
+                btn8.setBackgroundImage(ResultPic8, forState: .Normal)
+                operation2 + 3
+                
             }
+        
         }
+    
+    func performSegueToResult() {
+        self.performSegueWithIdentifier("tonextView", sender: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "tonextView") {
+            
+            var ResultView : FifthViewController = segue.destinationViewController as! FifthViewController
+            
+            ResultView.operation = operation
+            ResultView.operation2 = operation2
+            
+        }
+    }
+
 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func choicebtn1(){
+       operation = operation + 1
+    }
     
+    @IBAction func choicebtn2(){
+        operation = operation + 2
+    }
+    
+    @IBAction func choicebtn3(){
+        operation = operation + 3
+    }
+    
+    @IBAction func choicebtn4(){
+        operation = operation + 4
+    }
+    
+    @IBAction func choicebtn5(){
+        operation = operation + 5
+    }
+    
+    @IBAction func choicebtn6(){
+        operation = operation + 6
+    }
+    
+    @IBAction func choicebtn7(){
+        operation = operation + 7
+    }
+    
+    @IBAction func choicebtn8(){
+        operation = 8
+    }
 
     /*
     // MARK: - Navigation

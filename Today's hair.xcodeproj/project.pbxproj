@@ -11,7 +11,6 @@
 		974D5F2A1B38156500BFA546 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F291B38156500BFA546 /* ThirdViewController.swift */; };
 		974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */; };
 		974D5F301B3BF9FF00BFA546 /* pinterest1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */; };
-		974D5F311B3BF9FF00BFA546 /* toppagemono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */; };
 		974D5F4D1B3C1E3400BFA546 /* 17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F351B3C1E3400BFA546 /* 17.jpeg */; };
 		974D5F4E1B3C1E3400BFA546 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F361B3C1E3400BFA546 /* 18.jpg */; };
 		974D5F4F1B3C1E3400BFA546 /* 19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F371B3C1E3400BFA546 /* 19.jpeg */; };
@@ -69,7 +68,6 @@
 		974D5F291B38156500BFA546 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diver 　宝物探し.jpg"; sourceTree = "<group>"; };
 		974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinterest1.jpg; sourceTree = "<group>"; };
-		974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toppagemono.jpg; sourceTree = "<group>"; };
 		974D5F351B3C1E3400BFA546 /* 17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpeg; sourceTree = "<group>"; };
 		974D5F361B3C1E3400BFA546 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
 		974D5F371B3C1E3400BFA546 /* 19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpeg; sourceTree = "<group>"; };
@@ -221,7 +219,6 @@
 				974D5F331B3C1E3400BFA546 /* hairimage */,
 				974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */,
 				974D5F2C1B3BF9FF00BFA546 /* pinterest1.jpg */,
-				974D5F2D1B3BF9FF00BFA546 /* toppagemono.jpg */,
 				97FCBF671B380A060037F4C1 /* AppDelegate.swift */,
 				97FCBF691B380A060037F4C1 /* ViewController.swift */,
 				974D5F271B380DA700BFA546 /* SecondViewController.swift */,
@@ -347,7 +344,6 @@
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
-				974D5F311B3BF9FF00BFA546 /* toppagemono.jpg in Resources */,
 				974D5F5D1B3C1E3400BFA546 /* 16.jpg in Resources */,
 				974D5F5E1B3C1E3400BFA546 /* 20.jpg in Resources */,
 				974D5F521B3C1E3400BFA546 /* 6.jpg in Resources */,
