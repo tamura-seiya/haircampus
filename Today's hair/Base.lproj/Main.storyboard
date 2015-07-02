@@ -322,6 +322,7 @@
                                 </state>
                                 <connections>
                                     <action selector="postToTwitter:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="R6r-vK-2CL"/>
+                                    <action selector="twitter:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="Aap-Hl-32V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-ma-HdP">

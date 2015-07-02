@@ -81,7 +81,7 @@ class ForthViewController: UIViewController {
                 btn7.setBackgroundImage(ResultPic25, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic25, forState: .Normal)
                 btn8.setBackgroundImage(ResultPic25, forState: .Normal)
-                operation2 + 1
+                operation2 = 1
                 
                 
                 
@@ -94,7 +94,7 @@ class ForthViewController: UIViewController {
                 btn6.setBackgroundImage(ResultPic7, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic7, forState: .Normal)
                 btn8.setBackgroundImage(ResultPic7, forState: .Normal)
-                operation2 + 2
+                operation2 = 2
                 
                
             }else if (pointbox > 6){
@@ -106,11 +106,55 @@ class ForthViewController: UIViewController {
                 btn6.setBackgroundImage(ResultPic3, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic8, forState: .Normal)
                 btn8.setBackgroundImage(ResultPic8, forState: .Normal)
-                operation2 + 3
+                operation2 = 3
                 
             }
         
         }
+    
+    @IBAction func choicebtn1(){
+        operation = operation + 1
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn2(){
+        operation = operation + 2
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn3(){
+        operation = operation + 3
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn4(){
+        operation = operation + 4
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn5(){
+        operation = operation + 5
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn6(){
+        operation = operation + 6
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn7(){
+        operation = operation + 7
+        self.performSegueToResult()
+    }
+    
+    @IBAction func choicebtn8(){
+        operation = 8
+        self.performSegueToResult()
+    }
+
+  
+    
+    
     
     func performSegueToResult() {
         self.performSegueWithIdentifier("tonextView", sender: nil)
@@ -135,38 +179,7 @@ class ForthViewController: UIViewController {
         
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func choicebtn1(){
-       operation = operation + 1
-    }
-    
-    @IBAction func choicebtn2(){
-        operation = operation + 2
-    }
-    
-    @IBAction func choicebtn3(){
-        operation = operation + 3
-    }
-    
-    @IBAction func choicebtn4(){
-        operation = operation + 4
-    }
-    
-    @IBAction func choicebtn5(){
-        operation = operation + 5
-    }
-    
-    @IBAction func choicebtn6(){
-        operation = operation + 6
-    }
-    
-    @IBAction func choicebtn7(){
-        operation = operation + 7
-    }
-    
-    @IBAction func choicebtn8(){
-        operation = 8
-    }
-
+  
     /*
     // MARK: - Navigation
 
