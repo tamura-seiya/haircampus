@@ -42,7 +42,7 @@ class SecondViewController: UIViewController {
         questionArray.append(["今日の前髪の気分は？","アップ","センター分け","斜め"])
         questionArray.append(["もみあげはどうする？","2ブロック","ナチュラル","ロング"])
         questionArray.append(["後ろ髪はどうする？","ショート","アラウンド","ロング"])
-        questionArray.append(["今日の気分は？","なんか元気ない...","眠いなぁ","Happy!!"])
+        questionArray.append(["今日の気分は？","デートでハッピー","眠いなぁ","なんか元気ない..."])
         
         //------------------------ここから下にクイズを書く------------------------//
         choiceQuiz()

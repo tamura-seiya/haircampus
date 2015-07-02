@@ -47,6 +47,8 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
     let ResultPic26: UIImage! = UIImage(named: "26.jpeg")
     let ResultPic27: UIImage! = UIImage(named: "27.jpeg")
     let ResultPic28: UIImage! = UIImage(named: "19.jpg")
+    let ResultPic29: UIImage! = UIImage(named: "キムタク2.jpg")
+    let ResultPic30: UIImage! = UIImage(named: "高橋克実.jpg")
 
     var myComposeView : SLComposeViewController!
     var myTwitterButton: UIButton!
@@ -65,13 +67,13 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
         println("operation\(operation)")
         println("operation2\(operation2)")
         if(operation == 1 && operation2 == 1){
-            lastImage?.image = ResultPic11
+            lastImage?.image = ResultPic13
         }else if(operation == 2 && operation2 == 1){
             lastImage?.image = ResultPic4
         }else if(operation == 3 && operation2 == 1){
             lastImage?.image = ResultPic12
         }else if(operation == 4 && operation2 == 1){
-            lastImage?.image = ResultPic13
+            lastImage?.image = ResultPic29
         }else if(operation == 5 && operation2 == 1){
             lastImage?.image = ResultPic14
         }else if(operation == 6 && operation2 == 1){
@@ -95,7 +97,7 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
         }else if(operation == 7 && operation2 == 2){
             lastImage?.image = ResultPic7
         }else if(operation == 8 && operation2 == 2){
-            lastImage?.image = ResultPic25
+            lastImage?.image = ResultPic30
         }else if(operation == 1 && operation2 == 3){
             lastImage?.image = ResultPic10
         }else if(operation == 2 && operation2 == 3){

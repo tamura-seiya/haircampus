@@ -58,6 +58,9 @@ class ForthViewController: UIViewController {
     let ResultPic26: UIImage! = UIImage(named: "26.jpeg")
     let ResultPic27: UIImage! = UIImage(named: "27.jpeg")
     let ResultPic28: UIImage! = UIImage(named: "19.jpg")
+    let ResultPic29: UIImage! = UIImage(named: "キムタク2.jpg")
+    let ResultPic30: UIImage! = UIImage(named: "高橋克実.png")
+    
     
     
 
@@ -72,10 +75,10 @@ class ForthViewController: UIViewController {
 
             println("pointbox\(pointbox)")
             if (pointbox <= 4){
-                btn1.setBackgroundImage(ResultPic11, forState: .Normal)
+                btn1.setBackgroundImage(ResultPic13, forState: .Normal)
                 btn2.setBackgroundImage(ResultPic4, forState: .Normal)
                 btn3.setBackgroundImage(ResultPic12, forState: .Normal)
-                btn4.setBackgroundImage(ResultPic13, forState: .Normal)
+                btn4.setBackgroundImage(ResultPic29, forState: .Normal)
                 btn5.setBackgroundImage(ResultPic14, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic22, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic1, forState: .Normal)
@@ -93,7 +96,7 @@ class ForthViewController: UIViewController {
                 btn5.setBackgroundImage(ResultPic28, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic24, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic7, forState: .Normal)
-                btn8.setBackgroundImage(ResultPic25, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic30, forState: .Normal)
                 operation2 = 2
                 
                

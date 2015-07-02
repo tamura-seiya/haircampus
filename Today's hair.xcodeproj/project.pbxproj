@@ -10,6 +10,12 @@
 		970659C01B45BC7600BD305D /* 美容室２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659BF1B45BC7600BD305D /* 美容室２.jpg */; };
 		970659C21B45BC8200BD305D /* 美容室３.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 970659C11B45BC8200BD305D /* 美容室３.JPG */; };
 		970659C41B45C80200BD305D /* 美容室4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659C31B45C80200BD305D /* 美容室4.jpg */; };
+		970659C91B45C9C200BD305D /* IKKO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659C51B45C9C200BD305D /* IKKO.jpg */; };
+		970659CA1B45C9C200BD305D /* ikkoどんだけー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659C61B45C9C200BD305D /* ikkoどんだけー.jpg */; };
+		970659CB1B45C9C200BD305D /* キムタク髪型.png in Resources */ = {isa = PBXBuildFile; fileRef = 970659C71B45C9C200BD305D /* キムタク髪型.png */; };
+		970659CC1B45C9C200BD305D /* 高橋克実.png in Resources */ = {isa = PBXBuildFile; fileRef = 970659C81B45C9C200BD305D /* 高橋克実.png */; };
+		970659CE1B45CA2F00BD305D /* キムタク2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659CD1B45CA2F00BD305D /* キムタク2.jpg */; };
+		970659D01B45CEBA00BD305D /* 高橋克実.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659CF1B45CEBA00BD305D /* 高橋克実.jpg */; };
 		974D5F281B380DA700BFA546 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F271B380DA700BFA546 /* SecondViewController.swift */; };
 		974D5F2A1B38156500BFA546 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F291B38156500BFA546 /* ThirdViewController.swift */; };
 		974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */; };
@@ -114,7 +120,13 @@
 /* Begin PBXFileReference section */
 		970659BF1B45BC7600BD305D /* 美容室２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室２.jpg"; sourceTree = "<group>"; };
 		970659C11B45BC8200BD305D /* 美容室３.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室３.JPG"; sourceTree = "<group>"; };
-		970659C31B45C80200BD305D /* 美容室4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室4.jpg"; sourceTree = "<group>"; };
+		970659C31B45C80200BD305D /* 美容室4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室4.jpg"; path = "Spring/美容室4.jpg"; sourceTree = "<group>"; };
+		970659C51B45C9C200BD305D /* IKKO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IKKO.jpg; sourceTree = "<group>"; };
+		970659C61B45C9C200BD305D /* ikkoどんだけー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ikkoどんだけー.jpg"; sourceTree = "<group>"; };
+		970659C71B45C9C200BD305D /* キムタク髪型.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キムタク髪型.png"; sourceTree = "<group>"; };
+		970659C81B45C9C200BD305D /* 高橋克実.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高橋克実.png"; sourceTree = "<group>"; };
+		970659CD1B45CA2F00BD305D /* キムタク2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "キムタク2.jpg"; sourceTree = "<group>"; };
+		970659CF1B45CEBA00BD305D /* 高橋克実.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高橋克実.jpg"; sourceTree = "<group>"; };
 		974D5F271B380DA700BFA546 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		974D5F291B38156500BFA546 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diver 　宝物探し.jpg"; sourceTree = "<group>"; };
@@ -299,7 +311,6 @@
 		97D774F81B44C24A00E571E4 /* Spring */ = {
 			isa = PBXGroup;
 			children = (
-				970659C31B45C80200BD305D /* 美容室4.jpg */,
 				97D774F91B44C24A00E571E4 /* AsyncButton.swift */,
 				97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */,
 				97D774FB1B44C24A00E571E4 /* AutoTextView.swift */,
@@ -356,11 +367,18 @@
 		97FCBF641B380A060037F4C1 /* Today's hair */ = {
 			isa = PBXGroup;
 			children = (
+				970659CF1B45CEBA00BD305D /* 高橋克実.jpg */,
+				970659CD1B45CA2F00BD305D /* キムタク2.jpg */,
+				970659C51B45C9C200BD305D /* IKKO.jpg */,
+				970659C61B45C9C200BD305D /* ikkoどんだけー.jpg */,
+				970659C71B45C9C200BD305D /* キムタク髪型.png */,
+				970659C81B45C9C200BD305D /* 高橋克実.png */,
 				97D775361B453B0D00E571E4 /* toppage-start.jpg */,
 				97D775381B453BBA00E571E4 /* toppage3.jpg */,
 				97D775341B45389700E571E4 /* toppage-share.jpg */,
 				97D774F81B44C24A00E571E4 /* Spring */,
 				970659BF1B45BC7600BD305D /* 美容室２.jpg */,
+				970659C31B45C80200BD305D /* 美容室4.jpg */,
 				970659C11B45BC8200BD305D /* 美容室３.JPG */,
 				974D5F751B3F2CBE00BFA546 /* 美容室.jpg */,
 				974D5F731B3F2ADF00BFA546 /* toppage2.jpg */,
@@ -502,10 +520,13 @@
 				97D775371B453B0D00E571E4 /* toppage-start.jpg in Resources */,
 				970659C41B45C80200BD305D /* 美容室4.jpg in Resources */,
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
+				970659C91B45C9C200BD305D /* IKKO.jpg in Resources */,
 				97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */,
 				97D775501B458B6F00E571E4 /* 23.jpeg in Resources */,
+				970659CC1B45C9C200BD305D /* 高橋克実.png in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
+				970659CA1B45C9C200BD305D /* ikkoどんだけー.jpg in Resources */,
 				974D5F5D1B3C1E3400BFA546 /* 16.jpg in Resources */,
 				970659C01B45BC7600BD305D /* 美容室２.jpg in Resources */,
 				974D5F5E1B3C1E3400BFA546 /* 20.jpg in Resources */,
@@ -513,7 +534,10 @@
 				97D775551B458B6F00E571E4 /* 27.jpeg in Resources */,
 				974D5F521B3C1E3400BFA546 /* 6.jpg in Resources */,
 				974D5F591B3C1E3400BFA546 /* 22.jpg in Resources */,
+				970659CB1B45C9C200BD305D /* キムタク髪型.png in Resources */,
 				974D5F531B3C1E3400BFA546 /* 7.jpg in Resources */,
+				970659CE1B45CA2F00BD305D /* キムタク2.jpg in Resources */,
+				970659D01B45CEBA00BD305D /* 高橋克実.jpg in Resources */,
 				974D5F561B3C1E3400BFA546 /* 13.jpg in Resources */,
 				97D775231B44C24A00E571E4 /* Info.plist in Resources */,
 				97FCBF721B380A060037F4C1 /* LaunchScreen.xib in Resources */,
