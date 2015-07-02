@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970659C01B45BC7600BD305D /* 美容室２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659BF1B45BC7600BD305D /* 美容室２.jpg */; };
+		970659C21B45BC8200BD305D /* 美容室３.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 970659C11B45BC8200BD305D /* 美容室３.JPG */; };
+		970659C41B45C80200BD305D /* 美容室4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970659C31B45C80200BD305D /* 美容室4.jpg */; };
 		974D5F281B380DA700BFA546 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F271B380DA700BFA546 /* SecondViewController.swift */; };
 		974D5F2A1B38156500BFA546 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D5F291B38156500BFA546 /* ThirdViewController.swift */; };
 		974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */; };
@@ -46,9 +49,6 @@
 		974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F781B3F323A00BFA546 /* choosePicBtn.png */; };
 		974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F791B3F323A00BFA546 /* twitterBtn.png */; };
 		974D5F801B44B0B200BFA546 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974D5F7F1B44B0B200BFA546 /* Social.framework */; };
-		97D774121B44BCE200E571E4 /* 美容室２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D774101B44BCE200E571E4 /* 美容室２.jpg */; };
-		97D774131B44BCE200E571E4 /* 美容室３.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97D774111B44BCE200E571E4 /* 美容室３.JPG */; };
-		97D774151B44BCF100E571E4 /* 美容室4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D774141B44BCF100E571E4 /* 美容室4.jpg */; };
 		97D775171B44C24A00E571E4 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774F91B44C24A00E571E4 /* AsyncButton.swift */; };
 		97D775181B44C24A00E571E4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */; };
 		97D775191B44C24A00E571E4 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FB1B44C24A00E571E4 /* AutoTextView.swift */; };
@@ -112,6 +112,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970659BF1B45BC7600BD305D /* 美容室２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室２.jpg"; sourceTree = "<group>"; };
+		970659C11B45BC8200BD305D /* 美容室３.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室３.JPG"; sourceTree = "<group>"; };
+		970659C31B45C80200BD305D /* 美容室4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容室4.jpg"; sourceTree = "<group>"; };
 		974D5F271B380DA700BFA546 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		974D5F291B38156500BFA546 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		974D5F2B1B3BF9FF00BFA546 /* diver 　宝物探し.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diver 　宝物探し.jpg"; sourceTree = "<group>"; };
@@ -151,9 +154,6 @@
 		974D5F781B3F323A00BFA546 /* choosePicBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choosePicBtn.png; sourceTree = "<group>"; };
 		974D5F791B3F323A00BFA546 /* twitterBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterBtn.png; sourceTree = "<group>"; };
 		974D5F7F1B44B0B200BFA546 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		97D774101B44BCE200E571E4 /* 美容室２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室２.jpg"; path = "../../美容室２.jpg"; sourceTree = "<group>"; };
-		97D774111B44BCE200E571E4 /* 美容室３.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室３.JPG"; path = "../../美容室３.JPG"; sourceTree = "<group>"; };
-		97D774141B44BCF100E571E4 /* 美容室4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室4.jpg"; path = "../../美容室4.jpg"; sourceTree = "<group>"; };
 		97D774F91B44C24A00E571E4 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		97D774FB1B44C24A00E571E4 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
@@ -299,6 +299,7 @@
 		97D774F81B44C24A00E571E4 /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				970659C31B45C80200BD305D /* 美容室4.jpg */,
 				97D774F91B44C24A00E571E4 /* AsyncButton.swift */,
 				97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */,
 				97D774FB1B44C24A00E571E4 /* AutoTextView.swift */,
@@ -359,9 +360,8 @@
 				97D775381B453BBA00E571E4 /* toppage3.jpg */,
 				97D775341B45389700E571E4 /* toppage-share.jpg */,
 				97D774F81B44C24A00E571E4 /* Spring */,
-				97D774141B44BCF100E571E4 /* 美容室4.jpg */,
-				97D774101B44BCE200E571E4 /* 美容室２.jpg */,
-				97D774111B44BCE200E571E4 /* 美容室３.JPG */,
+				970659BF1B45BC7600BD305D /* 美容室２.jpg */,
+				970659C11B45BC8200BD305D /* 美容室３.JPG */,
 				974D5F751B3F2CBE00BFA546 /* 美容室.jpg */,
 				974D5F731B3F2ADF00BFA546 /* toppage2.jpg */,
 				974D5F711B3F299000BFA546 /* toppage.jpg */,
@@ -500,14 +500,16 @@
 				97D775511B458B6F00E571E4 /* 24.jpeg in Resources */,
 				974D5F681B3D36B400BFA546 /* stop.png in Resources */,
 				97D775371B453B0D00E571E4 /* toppage-start.jpg in Resources */,
+				970659C41B45C80200BD305D /* 美容室4.jpg in Resources */,
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
 				97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */,
 				97D775501B458B6F00E571E4 /* 23.jpeg in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
-				97D774151B44BCF100E571E4 /* 美容室4.jpg in Resources */,
 				974D5F5D1B3C1E3400BFA546 /* 16.jpg in Resources */,
+				970659C01B45BC7600BD305D /* 美容室２.jpg in Resources */,
 				974D5F5E1B3C1E3400BFA546 /* 20.jpg in Resources */,
+				970659C21B45BC8200BD305D /* 美容室３.JPG in Resources */,
 				97D775551B458B6F00E571E4 /* 27.jpeg in Resources */,
 				974D5F521B3C1E3400BFA546 /* 6.jpg in Resources */,
 				974D5F591B3C1E3400BFA546 /* 22.jpg in Resources */,
@@ -520,7 +522,6 @@
 				974D5F581B3C1E3400BFA546 /* 2.jpg in Resources */,
 				974D5F721B3F299000BFA546 /* toppage.jpg in Resources */,
 				974D5F4D1B3C1E3400BFA546 /* 17.jpeg in Resources */,
-				97D774131B44BCE200E571E4 /* 美容室３.JPG in Resources */,
 				97D775351B45389700E571E4 /* toppage-share.jpg in Resources */,
 				974D5F551B3C1E3400BFA546 /* 12.jpg in Resources */,
 				974D5F5C1B3C1E3400BFA546 /* 15.jpg in Resources */,
@@ -531,7 +532,6 @@
 				974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */,
 				974D5F5B1B3C1E3400BFA546 /* 10.jpg in Resources */,
 				974D5F611B3C1E3400BFA546 /* 8.jpg in Resources */,
-				97D774121B44BCE200E571E4 /* 美容室２.jpg in Resources */,
 				97D7753F1B454AD200E571E4 /* 美容師１０.jpg in Resources */,
 				974D5F4E1B3C1E3400BFA546 /* 18.jpg in Resources */,
 				974D5F301B3BF9FF00BFA546 /* pinterest1.jpg in Resources */,

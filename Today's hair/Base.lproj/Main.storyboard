@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="386.5" y="314.5"/>
+            <point key="canvasLocation" x="315.5" y="314.5"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="9Tl-Va-Qtc">
@@ -469,27 +469,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美容室３.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="gYC-MQ-e5c">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHB-As-cic">
-                                <rect key="frame" x="43" y="500" width="300" height="100"/>
-                                <state key="normal" backgroundImage="twitterBtn.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="postToTwitter:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="R6r-vK-2CL"/>
-                                    <action selector="twitter:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="Aap-Hl-32V"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh9-ma-HdP">
-                                <rect key="frame" x="43" y="368" width="300" height="100"/>
-                                <state key="normal" backgroundImage="facebookBtn.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="postToFacebook:" destination="u9n-Mb-tqv" eventType="touchUpInside" id="Gs8-Qv-U7p"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-uD-56N" customClass="SpringImageView" customModule="Today_s_hair" customModuleProvider="target">
-                                <rect key="frame" x="42" y="121" width="291" height="222"/>
+                                <rect key="frame" x="29" y="129" width="317" height="310"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
@@ -502,6 +483,16 @@
                                 <color key="textColor" red="1" green="0.029424027130453889" blue="0.16370953943045397" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1I-zP-Pwt">
+                                <rect key="frame" x="105" y="465" width="277" height="182"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="51"/>
+                                <state key="normal" title=" TOPへ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="GkZ-AI-0dv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000596046448" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                     </view>
@@ -518,11 +509,9 @@
     <resources>
         <image name="13.jpg" width="215" height="332"/>
         <image name="17.jpeg" width="176" height="234"/>
-        <image name="facebookBtn.png" width="300" height="100"/>
         <image name="toppage-share.jpg" width="1417" height="850"/>
         <image name="toppage2.jpg" width="1417" height="850"/>
         <image name="toppage3.jpg" width="300" height="180"/>
-        <image name="twitterBtn.png" width="300" height="100"/>
         <image name="美容室.jpg" width="640" height="427"/>
         <image name="美容室4.jpg" width="450" height="350"/>
         <image name="美容室２.jpg" width="1920" height="1000"/>
