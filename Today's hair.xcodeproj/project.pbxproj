@@ -46,6 +46,46 @@
 		974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F781B3F323A00BFA546 /* choosePicBtn.png */; };
 		974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 974D5F791B3F323A00BFA546 /* twitterBtn.png */; };
 		974D5F801B44B0B200BFA546 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974D5F7F1B44B0B200BFA546 /* Social.framework */; };
+		97D774121B44BCE200E571E4 /* 美容室２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D774101B44BCE200E571E4 /* 美容室２.jpg */; };
+		97D774131B44BCE200E571E4 /* 美容室３.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97D774111B44BCE200E571E4 /* 美容室３.JPG */; };
+		97D774151B44BCF100E571E4 /* 美容室4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D774141B44BCF100E571E4 /* 美容室4.jpg */; };
+		97D775171B44C24A00E571E4 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774F91B44C24A00E571E4 /* AsyncButton.swift */; };
+		97D775181B44C24A00E571E4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */; };
+		97D775191B44C24A00E571E4 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FB1B44C24A00E571E4 /* AutoTextView.swift */; };
+		97D7751A1B44C24A00E571E4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FC1B44C24A00E571E4 /* BlurView.swift */; };
+		97D7751B1B44C24A00E571E4 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FD1B44C24A00E571E4 /* DesignableButton.swift */; };
+		97D7751C1B44C24A00E571E4 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FE1B44C24A00E571E4 /* DesignableImageView.swift */; };
+		97D7751D1B44C24A00E571E4 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D774FF1B44C24A00E571E4 /* DesignableLabel.swift */; };
+		97D7751E1B44C24A00E571E4 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775001B44C24A00E571E4 /* DesignableTabBarController.swift */; };
+		97D7751F1B44C24A00E571E4 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775011B44C24A00E571E4 /* DesignableTextField.swift */; };
+		97D775201B44C24A00E571E4 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775021B44C24A00E571E4 /* DesignableTextView.swift */; };
+		97D775211B44C24A00E571E4 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775031B44C24A00E571E4 /* DesignableView.swift */; };
+		97D775221B44C24A00E571E4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775041B44C24A00E571E4 /* ImageLoader.swift */; };
+		97D775231B44C24A00E571E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97D775051B44C24A00E571E4 /* Info.plist */; };
+		97D775241B44C24A00E571E4 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775061B44C24A00E571E4 /* KeyboardLayoutConstraint.swift */; };
+		97D775251B44C24A00E571E4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775071B44C24A00E571E4 /* LoadingView.swift */; };
+		97D775261B44C24A00E571E4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D775081B44C24A00E571E4 /* LoadingView.xib */; };
+		97D775271B44C24A00E571E4 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775091B44C24A00E571E4 /* Misc.swift */; };
+		97D775281B44C24A00E571E4 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750A1B44C24A00E571E4 /* SoundPlayer.swift */; };
+		97D775291B44C24A00E571E4 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750C1B44C24A00E571E4 /* Spring.swift */; };
+		97D7752A1B44C24A00E571E4 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750D1B44C24A00E571E4 /* SpringAnimation.swift */; };
+		97D7752B1B44C24A00E571E4 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750E1B44C24A00E571E4 /* SpringButton.swift */; };
+		97D7752C1B44C24A00E571E4 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D7750F1B44C24A00E571E4 /* SpringImageView.swift */; };
+		97D7752D1B44C24A00E571E4 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775101B44C24A00E571E4 /* SpringLabel.swift */; };
+		97D7752E1B44C24A00E571E4 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775111B44C24A00E571E4 /* SpringTextField.swift */; };
+		97D7752F1B44C24A00E571E4 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775121B44C24A00E571E4 /* SpringTextView.swift */; };
+		97D775301B44C24A00E571E4 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775131B44C24A00E571E4 /* SpringView.swift */; };
+		97D775311B44C24A00E571E4 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775141B44C24A00E571E4 /* TransitionManager.swift */; };
+		97D775321B44C24A00E571E4 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775151B44C24A00E571E4 /* TransitionZoom.swift */; };
+		97D775331B44C24A00E571E4 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D775161B44C24A00E571E4 /* UnwindSegue.swift */; };
+		97D775351B45389700E571E4 /* toppage-share.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775341B45389700E571E4 /* toppage-share.jpg */; };
+		97D775371B453B0D00E571E4 /* toppage-start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775361B453B0D00E571E4 /* toppage-start.jpg */; };
+		97D775391B453BBA00E571E4 /* toppage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775381B453BBA00E571E4 /* toppage3.jpg */; };
+		97D7753F1B454AD200E571E4 /* 美容師１０.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753A1B454AD200E571E4 /* 美容師１０.jpg */; };
+		97D775401B454AD200E571E4 /* 美容師１３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753B1B454AD200E571E4 /* 美容師１３.jpg */; };
+		97D775411B454AD200E571E4 /* 美容師１６.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753C1B454AD200E571E4 /* 美容師１６.jpeg */; };
+		97D775421B454AD200E571E4 /* 美容師１１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753D1B454AD200E571E4 /* 美容師１１.jpg */; };
+		97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753E1B454AD200E571E4 /* 美容師１９.jpg */; };
 		97FCBF681B380A060037F4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF671B380A060037F4C1 /* AppDelegate.swift */; };
 		97FCBF6A1B380A060037F4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF691B380A060037F4C1 /* ViewController.swift */; };
 		97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FCBF6B1B380A060037F4C1 /* Main.storyboard */; };
@@ -104,6 +144,47 @@
 		974D5F781B3F323A00BFA546 /* choosePicBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choosePicBtn.png; sourceTree = "<group>"; };
 		974D5F791B3F323A00BFA546 /* twitterBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterBtn.png; sourceTree = "<group>"; };
 		974D5F7F1B44B0B200BFA546 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		97D774101B44BCE200E571E4 /* 美容室２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室２.jpg"; path = "../../美容室２.jpg"; sourceTree = "<group>"; };
+		97D774111B44BCE200E571E4 /* 美容室３.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室３.JPG"; path = "../../美容室３.JPG"; sourceTree = "<group>"; };
+		97D774141B44BCF100E571E4 /* 美容室4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "美容室4.jpg"; path = "../../美容室4.jpg"; sourceTree = "<group>"; };
+		97D774F91B44C24A00E571E4 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		97D774FB1B44C24A00E571E4 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		97D774FC1B44C24A00E571E4 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		97D774FD1B44C24A00E571E4 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		97D774FE1B44C24A00E571E4 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		97D774FF1B44C24A00E571E4 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		97D775001B44C24A00E571E4 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		97D775011B44C24A00E571E4 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		97D775021B44C24A00E571E4 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		97D775031B44C24A00E571E4 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		97D775041B44C24A00E571E4 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		97D775051B44C24A00E571E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D775061B44C24A00E571E4 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		97D775071B44C24A00E571E4 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		97D775081B44C24A00E571E4 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		97D775091B44C24A00E571E4 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		97D7750A1B44C24A00E571E4 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		97D7750B1B44C24A00E571E4 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		97D7750C1B44C24A00E571E4 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		97D7750D1B44C24A00E571E4 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		97D7750E1B44C24A00E571E4 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		97D7750F1B44C24A00E571E4 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		97D775101B44C24A00E571E4 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		97D775111B44C24A00E571E4 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		97D775121B44C24A00E571E4 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		97D775131B44C24A00E571E4 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		97D775141B44C24A00E571E4 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		97D775151B44C24A00E571E4 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		97D775161B44C24A00E571E4 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		97D775341B45389700E571E4 /* toppage-share.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toppage-share.jpg"; sourceTree = "<group>"; };
+		97D775361B453B0D00E571E4 /* toppage-start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "toppage-start.jpg"; sourceTree = "<group>"; };
+		97D775381B453BBA00E571E4 /* toppage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = toppage3.jpg; path = Spring/toppage3.jpg; sourceTree = "<group>"; };
+		97D7753A1B454AD200E571E4 /* 美容師１０.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１０.jpg"; sourceTree = "<group>"; };
+		97D7753B1B454AD200E571E4 /* 美容師１３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１３.jpg"; sourceTree = "<group>"; };
+		97D7753C1B454AD200E571E4 /* 美容師１６.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１６.jpeg"; sourceTree = "<group>"; };
+		97D7753D1B454AD200E571E4 /* 美容師１１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１１.jpg"; sourceTree = "<group>"; };
+		97D7753E1B454AD200E571E4 /* 美容師１９.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１９.jpg"; sourceTree = "<group>"; };
 		97FCBF621B380A060037F4C1 /* Today's hair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's hair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FCBF661B380A060037F4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FCBF671B380A060037F4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +219,11 @@
 		974D5F331B3C1E3400BFA546 /* hairimage */ = {
 			isa = PBXGroup;
 			children = (
+				97D7753A1B454AD200E571E4 /* 美容師１０.jpg */,
+				97D7753B1B454AD200E571E4 /* 美容師１３.jpg */,
+				97D7753C1B454AD200E571E4 /* 美容師１６.jpeg */,
+				97D7753D1B454AD200E571E4 /* 美容師１１.jpg */,
+				97D7753E1B454AD200E571E4 /* 美容師１９.jpg */,
 				974D5F341B3C1E3400BFA546 /* long */,
 				974D5F3C1B3C1E3400BFA546 /* short */,
 				974D5F441B3C1E3400BFA546 /* パーマ */,
@@ -189,6 +275,43 @@
 			path = "パーマ";
 			sourceTree = "<group>";
 		};
+		97D774F81B44C24A00E571E4 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				97D774F91B44C24A00E571E4 /* AsyncButton.swift */,
+				97D774FA1B44C24A00E571E4 /* AsyncImageView.swift */,
+				97D774FB1B44C24A00E571E4 /* AutoTextView.swift */,
+				97D774FC1B44C24A00E571E4 /* BlurView.swift */,
+				97D774FD1B44C24A00E571E4 /* DesignableButton.swift */,
+				97D774FE1B44C24A00E571E4 /* DesignableImageView.swift */,
+				97D774FF1B44C24A00E571E4 /* DesignableLabel.swift */,
+				97D775001B44C24A00E571E4 /* DesignableTabBarController.swift */,
+				97D775011B44C24A00E571E4 /* DesignableTextField.swift */,
+				97D775021B44C24A00E571E4 /* DesignableTextView.swift */,
+				97D775031B44C24A00E571E4 /* DesignableView.swift */,
+				97D775041B44C24A00E571E4 /* ImageLoader.swift */,
+				97D775051B44C24A00E571E4 /* Info.plist */,
+				97D775061B44C24A00E571E4 /* KeyboardLayoutConstraint.swift */,
+				97D775071B44C24A00E571E4 /* LoadingView.swift */,
+				97D775081B44C24A00E571E4 /* LoadingView.xib */,
+				97D775091B44C24A00E571E4 /* Misc.swift */,
+				97D7750A1B44C24A00E571E4 /* SoundPlayer.swift */,
+				97D7750B1B44C24A00E571E4 /* Spring.h */,
+				97D7750C1B44C24A00E571E4 /* Spring.swift */,
+				97D7750D1B44C24A00E571E4 /* SpringAnimation.swift */,
+				97D7750E1B44C24A00E571E4 /* SpringButton.swift */,
+				97D7750F1B44C24A00E571E4 /* SpringImageView.swift */,
+				97D775101B44C24A00E571E4 /* SpringLabel.swift */,
+				97D775111B44C24A00E571E4 /* SpringTextField.swift */,
+				97D775121B44C24A00E571E4 /* SpringTextView.swift */,
+				97D775131B44C24A00E571E4 /* SpringView.swift */,
+				97D775141B44C24A00E571E4 /* TransitionManager.swift */,
+				97D775151B44C24A00E571E4 /* TransitionZoom.swift */,
+				97D775161B44C24A00E571E4 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
 		97FCBF591B380A060037F4C1 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +334,13 @@
 		97FCBF641B380A060037F4C1 /* Today's hair */ = {
 			isa = PBXGroup;
 			children = (
+				97D775361B453B0D00E571E4 /* toppage-start.jpg */,
+				97D775381B453BBA00E571E4 /* toppage3.jpg */,
+				97D775341B45389700E571E4 /* toppage-share.jpg */,
+				97D774F81B44C24A00E571E4 /* Spring */,
+				97D774141B44BCF100E571E4 /* 美容室4.jpg */,
+				97D774101B44BCE200E571E4 /* 美容室２.jpg */,
+				97D774111B44BCE200E571E4 /* 美容室３.JPG */,
 				974D5F751B3F2CBE00BFA546 /* 美容室.jpg */,
 				974D5F731B3F2ADF00BFA546 /* toppage2.jpg */,
 				974D5F711B3F299000BFA546 /* toppage.jpg */,
@@ -342,24 +472,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D775391B453BBA00E571E4 /* toppage3.jpg in Resources */,
 				974D5F741B3F2ADF00BFA546 /* toppage2.jpg in Resources */,
 				974D5F5F1B3C1E3400BFA546 /* 21.jpg in Resources */,
 				974D5F681B3D36B400BFA546 /* stop.png in Resources */,
+				97D775371B453B0D00E571E4 /* toppage-start.jpg in Resources */,
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
+				97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
+				97D774151B44BCF100E571E4 /* 美容室4.jpg in Resources */,
 				974D5F5D1B3C1E3400BFA546 /* 16.jpg in Resources */,
 				974D5F5E1B3C1E3400BFA546 /* 20.jpg in Resources */,
 				974D5F521B3C1E3400BFA546 /* 6.jpg in Resources */,
 				974D5F591B3C1E3400BFA546 /* 22.jpg in Resources */,
 				974D5F531B3C1E3400BFA546 /* 7.jpg in Resources */,
 				974D5F561B3C1E3400BFA546 /* 13.jpg in Resources */,
+				97D775231B44C24A00E571E4 /* Info.plist in Resources */,
 				97FCBF721B380A060037F4C1 /* LaunchScreen.xib in Resources */,
 				974D5F601B3C1E3400BFA546 /* 3.jpeg in Resources */,
 				974D5F4F1B3C1E3400BFA546 /* 19.jpeg in Resources */,
 				974D5F581B3C1E3400BFA546 /* 2.jpg in Resources */,
 				974D5F721B3F299000BFA546 /* toppage.jpg in Resources */,
 				974D5F4D1B3C1E3400BFA546 /* 17.jpeg in Resources */,
+				97D774131B44BCE200E571E4 /* 美容室３.JPG in Resources */,
+				97D775351B45389700E571E4 /* toppage-share.jpg in Resources */,
 				974D5F551B3C1E3400BFA546 /* 12.jpg in Resources */,
 				974D5F5C1B3C1E3400BFA546 /* 15.jpg in Resources */,
 				974D5F651B3C275700BFA546 /* 美容師.jpg in Resources */,
@@ -368,17 +505,23 @@
 				974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */,
 				974D5F5B1B3C1E3400BFA546 /* 10.jpg in Resources */,
 				974D5F611B3C1E3400BFA546 /* 8.jpg in Resources */,
+				97D774121B44BCE200E571E4 /* 美容室２.jpg in Resources */,
+				97D7753F1B454AD200E571E4 /* 美容師１０.jpg in Resources */,
 				974D5F4E1B3C1E3400BFA546 /* 18.jpg in Resources */,
 				974D5F301B3BF9FF00BFA546 /* pinterest1.jpg in Resources */,
 				974D5F501B3C1E3400BFA546 /* 19.jpg in Resources */,
 				974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */,
 				974D5F5A1B3C1E3400BFA546 /* 5.png in Resources */,
+				97D775411B454AD200E571E4 /* 美容師１６.jpeg in Resources */,
 				974D5F701B3F26AB00BFA546 /* 美容師さん.jpg in Resources */,
 				974D5F621B3C1E3400BFA546 /* 9.jpg in Resources */,
 				974D5F761B3F2CBE00BFA546 /* 美容室.jpg in Resources */,
 				974D5F511B3C1E3400BFA546 /* 4.jpeg in Resources */,
+				97D775261B44C24A00E571E4 /* LoadingView.xib in Resources */,
 				974D5F7A1B3F323A00BFA546 /* facebookBtn.png in Resources */,
 				974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */,
+				97D775401B454AD200E571E4 /* 美容師１３.jpg in Resources */,
+				97D775421B454AD200E571E4 /* 美容師１１.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +540,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				974D5F6C1B3EF25500BFA546 /* FifthViewController.swift in Sources */,
+				97D775201B44C24A00E571E4 /* DesignableTextView.swift in Sources */,
+				97D775281B44C24A00E571E4 /* SoundPlayer.swift in Sources */,
+				97D7752A1B44C24A00E571E4 /* SpringAnimation.swift in Sources */,
+				97D775171B44C24A00E571E4 /* AsyncButton.swift in Sources */,
+				97D775301B44C24A00E571E4 /* SpringView.swift in Sources */,
+				97D775241B44C24A00E571E4 /* KeyboardLayoutConstraint.swift in Sources */,
+				97D775311B44C24A00E571E4 /* TransitionManager.swift in Sources */,
 				974D5F281B380DA700BFA546 /* SecondViewController.swift in Sources */,
+				97D775191B44C24A00E571E4 /* AutoTextView.swift in Sources */,
+				97D7751D1B44C24A00E571E4 /* DesignableLabel.swift in Sources */,
+				97D7752C1B44C24A00E571E4 /* SpringImageView.swift in Sources */,
+				97D7751C1B44C24A00E571E4 /* DesignableImageView.swift in Sources */,
+				97D7751E1B44C24A00E571E4 /* DesignableTabBarController.swift in Sources */,
+				97D7751F1B44C24A00E571E4 /* DesignableTextField.swift in Sources */,
+				97D7751B1B44C24A00E571E4 /* DesignableButton.swift in Sources */,
+				97D7752B1B44C24A00E571E4 /* SpringButton.swift in Sources */,
+				97D7752D1B44C24A00E571E4 /* SpringLabel.swift in Sources */,
+				97D775331B44C24A00E571E4 /* UnwindSegue.swift in Sources */,
+				97D775181B44C24A00E571E4 /* AsyncImageView.swift in Sources */,
 				97FCBF6A1B380A060037F4C1 /* ViewController.swift in Sources */,
+				97D775251B44C24A00E571E4 /* LoadingView.swift in Sources */,
+				97D775291B44C24A00E571E4 /* Spring.swift in Sources */,
+				97D7752E1B44C24A00E571E4 /* SpringTextField.swift in Sources */,
 				974D5F2A1B38156500BFA546 /* ThirdViewController.swift in Sources */,
+				97D7751A1B44C24A00E571E4 /* BlurView.swift in Sources */,
+				97D775221B44C24A00E571E4 /* ImageLoader.swift in Sources */,
+				97D7752F1B44C24A00E571E4 /* SpringTextView.swift in Sources */,
 				97FCBF681B380A060037F4C1 /* AppDelegate.swift in Sources */,
+				97D775271B44C24A00E571E4 /* Misc.swift in Sources */,
 				974D5F6A1B3EE15600BFA546 /* ForthViewController.swift in Sources */,
+				97D775211B44C24A00E571E4 /* DesignableView.swift in Sources */,
+				97D775321B44C24A00E571E4 /* TransitionZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

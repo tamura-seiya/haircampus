@@ -36,14 +36,14 @@ class ThirdViewController: UIViewController {
         
         if(pointbox <= 3){
             resultImage.image = ResultPic0
-            resultlabel1.text = String(format: "Short Hair!!!!")
+            resultlabel1.text = String(format: "Short Set")
             
         }else if(pointbox >= 4 && 7 > pointbox ){
             resultImage.image = ResultPic1
-            resultlabel1.text = String(format: "LongHair!!!!")
+            resultlabel1.text = String(format: "Long Set!!!!")
         }else if(pointbox > 6){
             resultImage.image = ResultPic2
-            resultlabel1.text = String(format: "Parma hair!!!!")
+            resultlabel1.text = String(format: "Parma Set!!!!")
         }
         
                 
