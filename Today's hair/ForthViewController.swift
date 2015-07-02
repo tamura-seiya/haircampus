@@ -71,41 +71,41 @@ class ForthViewController: UIViewController {
         
 
             println("pointbox\(pointbox)")
-            if (pointbox <= 3){
-                btn1.setBackgroundImage(ResultPic2, forState: .Normal)
-                btn2.setBackgroundImage(ResultPic11, forState: .Normal)
+            if (pointbox <= 4){
+                btn1.setBackgroundImage(ResultPic11, forState: .Normal)
+                btn2.setBackgroundImage(ResultPic4, forState: .Normal)
                 btn3.setBackgroundImage(ResultPic12, forState: .Normal)
                 btn4.setBackgroundImage(ResultPic13, forState: .Normal)
                 btn5.setBackgroundImage(ResultPic14, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic22, forState: .Normal)
-                btn7.setBackgroundImage(ResultPic25, forState: .Normal)
-                btn7.setBackgroundImage(ResultPic25, forState: .Normal)
-                btn8.setBackgroundImage(ResultPic25, forState: .Normal)
+                btn7.setBackgroundImage(ResultPic1, forState: .Normal)
+                btn7.setBackgroundImage(ResultPic6, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic7, forState: .Normal)
                 operation2 = 1
                 
                 
                 
-            }else if (pointbox >= 4 && 7 > pointbox){
+            }else if (pointbox >= 5 &&  pointbox < 10){
                 btn1.setBackgroundImage(ResultPic17, forState: .Normal)
                 btn2.setBackgroundImage(ResultPic18, forState: .Normal)
                 btn3.setBackgroundImage(ResultPic19, forState: .Normal)
-                btn4.setBackgroundImage(ResultPic4, forState: .Normal)
-                btn5.setBackgroundImage(ResultPic6, forState: .Normal)
-                btn6.setBackgroundImage(ResultPic7, forState: .Normal)
+                btn4.setBackgroundImage(ResultPic2, forState: .Normal)
+                btn5.setBackgroundImage(ResultPic28, forState: .Normal)
+                btn6.setBackgroundImage(ResultPic24, forState: .Normal)
                 btn7.setBackgroundImage(ResultPic7, forState: .Normal)
-                btn8.setBackgroundImage(ResultPic7, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic25, forState: .Normal)
                 operation2 = 2
                 
                
-            }else if (pointbox > 6){
+            }else if (pointbox >= 10){
                 btn1.setBackgroundImage(ResultPic10, forState: .Normal)
                 btn2.setBackgroundImage(ResultPic15, forState: .Normal)
                 btn3.setBackgroundImage(ResultPic16, forState: .Normal)
                 btn4.setBackgroundImage(ResultPic20, forState: .Normal)
                 btn5.setBackgroundImage(ResultPic21, forState: .Normal)
                 btn6.setBackgroundImage(ResultPic3, forState: .Normal)
-                btn7.setBackgroundImage(ResultPic8, forState: .Normal)
-                btn8.setBackgroundImage(ResultPic8, forState: .Normal)
+                btn7.setBackgroundImage(ResultPic26, forState: .Normal)
+                btn8.setBackgroundImage(ResultPic27, forState: .Normal)
                 operation2 = 3
                 
             }

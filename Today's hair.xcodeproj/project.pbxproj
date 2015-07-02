@@ -86,6 +86,13 @@
 		97D775411B454AD200E571E4 /* 美容師１６.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753C1B454AD200E571E4 /* 美容師１６.jpeg */; };
 		97D775421B454AD200E571E4 /* 美容師１１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753D1B454AD200E571E4 /* 美容師１１.jpg */; };
 		97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7753E1B454AD200E571E4 /* 美容師１９.jpg */; };
+		97D7754E1B458B6F00E571E4 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775461B458B6F00E571E4 /* 1.jpeg */; };
+		97D7754F1B458B6F00E571E4 /* 18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775471B458B6F00E571E4 /* 18.jpeg */; };
+		97D775501B458B6F00E571E4 /* 23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775481B458B6F00E571E4 /* 23.jpeg */; };
+		97D775511B458B6F00E571E4 /* 24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D775491B458B6F00E571E4 /* 24.jpeg */; };
+		97D775531B458B6F00E571E4 /* 25.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7754B1B458B6F00E571E4 /* 25.jpeg */; };
+		97D775541B458B6F00E571E4 /* 26.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7754C1B458B6F00E571E4 /* 26.jpeg */; };
+		97D775551B458B6F00E571E4 /* 27.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97D7754D1B458B6F00E571E4 /* 27.jpeg */; };
 		97FCBF681B380A060037F4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF671B380A060037F4C1 /* AppDelegate.swift */; };
 		97FCBF6A1B380A060037F4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBF691B380A060037F4C1 /* ViewController.swift */; };
 		97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FCBF6B1B380A060037F4C1 /* Main.storyboard */; };
@@ -113,14 +120,14 @@
 		974D5F361B3C1E3400BFA546 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
 		974D5F371B3C1E3400BFA546 /* 19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpeg; sourceTree = "<group>"; };
 		974D5F381B3C1E3400BFA546 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
-		974D5F391B3C1E3400BFA546 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
-		974D5F3A1B3C1E3400BFA546 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		974D5F391B3C1E3400BFA546 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = ../long/4.jpeg; sourceTree = "<group>"; };
+		974D5F3A1B3C1E3400BFA546 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = ../long/6.jpg; sourceTree = "<group>"; };
 		974D5F3B1B3C1E3400BFA546 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		974D5F3D1B3C1E3400BFA546 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 		974D5F3E1B3C1E3400BFA546 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
 		974D5F3F1B3C1E3400BFA546 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
 		974D5F401B3C1E3400BFA546 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
-		974D5F411B3C1E3400BFA546 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		974D5F411B3C1E3400BFA546 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../short/2.jpg; sourceTree = "<group>"; };
 		974D5F421B3C1E3400BFA546 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
 		974D5F431B3C1E3400BFA546 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		974D5F451B3C1E3400BFA546 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
@@ -185,6 +192,13 @@
 		97D7753C1B454AD200E571E4 /* 美容師１６.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１６.jpeg"; sourceTree = "<group>"; };
 		97D7753D1B454AD200E571E4 /* 美容師１１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１１.jpg"; sourceTree = "<group>"; };
 		97D7753E1B454AD200E571E4 /* 美容師１９.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美容師１９.jpg"; sourceTree = "<group>"; };
+		97D775461B458B6F00E571E4 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../long/1.jpeg; sourceTree = "<group>"; };
+		97D775471B458B6F00E571E4 /* 18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpeg; sourceTree = "<group>"; };
+		97D775481B458B6F00E571E4 /* 23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpeg; sourceTree = "<group>"; };
+		97D775491B458B6F00E571E4 /* 24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpeg; sourceTree = "<group>"; };
+		97D7754B1B458B6F00E571E4 /* 25.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpeg; sourceTree = "<group>"; };
+		97D7754C1B458B6F00E571E4 /* 26.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 26.jpeg; path = ../long/26.jpeg; sourceTree = "<group>"; };
+		97D7754D1B458B6F00E571E4 /* 27.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 27.jpeg; path = ../long/27.jpeg; sourceTree = "<group>"; };
 		97FCBF621B380A060037F4C1 /* Today's hair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's hair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FCBF661B380A060037F4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FCBF671B380A060037F4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -234,13 +248,16 @@
 		974D5F341B3C1E3400BFA546 /* long */ = {
 			isa = PBXGroup;
 			children = (
+				97D775471B458B6F00E571E4 /* 18.jpeg */,
+				97D775481B458B6F00E571E4 /* 23.jpeg */,
+				97D775491B458B6F00E571E4 /* 24.jpeg */,
+				97D7754B1B458B6F00E571E4 /* 25.jpeg */,
 				974D5F351B3C1E3400BFA546 /* 17.jpeg */,
 				974D5F361B3C1E3400BFA546 /* 18.jpg */,
 				974D5F371B3C1E3400BFA546 /* 19.jpeg */,
 				974D5F381B3C1E3400BFA546 /* 19.jpg */,
-				974D5F391B3C1E3400BFA546 /* 4.jpeg */,
-				974D5F3A1B3C1E3400BFA546 /* 6.jpg */,
 				974D5F3B1B3C1E3400BFA546 /* 7.jpg */,
+				974D5F411B3C1E3400BFA546 /* 2.jpg */,
 			);
 			path = long;
 			sourceTree = "<group>";
@@ -248,11 +265,13 @@
 		974D5F3C1B3C1E3400BFA546 /* short */ = {
 			isa = PBXGroup;
 			children = (
+				974D5F3A1B3C1E3400BFA546 /* 6.jpg */,
+				97D775461B458B6F00E571E4 /* 1.jpeg */,
+				974D5F391B3C1E3400BFA546 /* 4.jpeg */,
 				974D5F3D1B3C1E3400BFA546 /* 11.jpg */,
 				974D5F3E1B3C1E3400BFA546 /* 12.jpg */,
 				974D5F3F1B3C1E3400BFA546 /* 13.jpg */,
 				974D5F401B3C1E3400BFA546 /* 14.jpg */,
-				974D5F411B3C1E3400BFA546 /* 2.jpg */,
 				974D5F421B3C1E3400BFA546 /* 22.jpg */,
 				974D5F431B3C1E3400BFA546 /* 5.png */,
 			);
@@ -262,6 +281,8 @@
 		974D5F441B3C1E3400BFA546 /* パーマ */ = {
 			isa = PBXGroup;
 			children = (
+				97D7754D1B458B6F00E571E4 /* 27.jpeg */,
+				97D7754C1B458B6F00E571E4 /* 26.jpeg */,
 				974D5F671B3D36B400BFA546 /* stop.png */,
 				974D5F451B3C1E3400BFA546 /* 10.jpg */,
 				974D5F461B3C1E3400BFA546 /* 15.jpg */,
@@ -472,18 +493,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D775541B458B6F00E571E4 /* 26.jpeg in Resources */,
 				97D775391B453BBA00E571E4 /* toppage3.jpg in Resources */,
 				974D5F741B3F2ADF00BFA546 /* toppage2.jpg in Resources */,
 				974D5F5F1B3C1E3400BFA546 /* 21.jpg in Resources */,
+				97D775511B458B6F00E571E4 /* 24.jpeg in Resources */,
 				974D5F681B3D36B400BFA546 /* stop.png in Resources */,
 				97D775371B453B0D00E571E4 /* toppage-start.jpg in Resources */,
 				974D5F571B3C1E3400BFA546 /* 14.jpg in Resources */,
 				97D775431B454AD200E571E4 /* 美容師１９.jpg in Resources */,
+				97D775501B458B6F00E571E4 /* 23.jpeg in Resources */,
 				974D5F541B3C1E3400BFA546 /* 11.jpg in Resources */,
 				97FCBF6D1B380A060037F4C1 /* Main.storyboard in Resources */,
 				97D774151B44BCF100E571E4 /* 美容室4.jpg in Resources */,
 				974D5F5D1B3C1E3400BFA546 /* 16.jpg in Resources */,
 				974D5F5E1B3C1E3400BFA546 /* 20.jpg in Resources */,
+				97D775551B458B6F00E571E4 /* 27.jpeg in Resources */,
 				974D5F521B3C1E3400BFA546 /* 6.jpg in Resources */,
 				974D5F591B3C1E3400BFA546 /* 22.jpg in Resources */,
 				974D5F531B3C1E3400BFA546 /* 7.jpg in Resources */,
@@ -500,6 +525,7 @@
 				974D5F551B3C1E3400BFA546 /* 12.jpg in Resources */,
 				974D5F5C1B3C1E3400BFA546 /* 15.jpg in Resources */,
 				974D5F651B3C275700BFA546 /* 美容師.jpg in Resources */,
+				97D7754F1B458B6F00E571E4 /* 18.jpeg in Resources */,
 				974D5F661B3C275700BFA546 /* 美容師２.jpg in Resources */,
 				97FCBF6F1B380A060037F4C1 /* Images.xcassets in Resources */,
 				974D5F7C1B3F323A00BFA546 /* twitterBtn.png in Resources */,
@@ -512,11 +538,13 @@
 				974D5F501B3C1E3400BFA546 /* 19.jpg in Resources */,
 				974D5F7B1B3F323A00BFA546 /* choosePicBtn.png in Resources */,
 				974D5F5A1B3C1E3400BFA546 /* 5.png in Resources */,
+				97D7754E1B458B6F00E571E4 /* 1.jpeg in Resources */,
 				97D775411B454AD200E571E4 /* 美容師１６.jpeg in Resources */,
 				974D5F701B3F26AB00BFA546 /* 美容師さん.jpg in Resources */,
 				974D5F621B3C1E3400BFA546 /* 9.jpg in Resources */,
 				974D5F761B3F2CBE00BFA546 /* 美容室.jpg in Resources */,
 				974D5F511B3C1E3400BFA546 /* 4.jpeg in Resources */,
+				97D775531B458B6F00E571E4 /* 25.jpeg in Resources */,
 				97D775261B44C24A00E571E4 /* LoadingView.xib in Resources */,
 				974D5F7A1B3F323A00BFA546 /* facebookBtn.png in Resources */,
 				974D5F2F1B3BF9FF00BFA546 /* diver 　宝物探し.jpg in Resources */,

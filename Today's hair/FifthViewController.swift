@@ -63,9 +63,9 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
         println("operation\(operation)")
         println("operation2\(operation2)")
         if(operation == 1 && operation2 == 1){
-            lastImage?.image = ResultPic2
-        }else if(operation == 2 && operation2 == 1){
             lastImage?.image = ResultPic11
+        }else if(operation == 2 && operation2 == 1){
+            lastImage?.image = ResultPic4
         }else if(operation == 3 && operation2 == 1){
             lastImage?.image = ResultPic12
         }else if(operation == 4 && operation2 == 1){
@@ -74,6 +74,10 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
             lastImage?.image = ResultPic14
         }else if(operation == 6 && operation2 == 1){
             lastImage?.image = ResultPic22
+        }else if(operation == 7 && operation2 == 1){
+            lastImage?.image = ResultPic1
+        }else if(operation == 8 && operation2 == 1){
+            lastImage?.image = ResultPic7
         }else if(operation == 1 && operation2 == 2){
             lastImage?.image = ResultPic17
         }else if(operation == 2 && operation2 == 2){
@@ -81,11 +85,15 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
         }else if(operation == 3 && operation2 == 2){
             lastImage?.image = ResultPic19
         }else if(operation == 4 && operation2 == 2){
-            lastImage?.image = ResultPic4
+            lastImage?.image = ResultPic2
         }else if(operation == 5 && operation2 == 2){
-            lastImage?.image = ResultPic6
+            lastImage?.image = ResultPic28
         }else if(operation == 6 && operation2 == 2){
+            lastImage?.image = ResultPic24
+        }else if(operation == 7 && operation2 == 2){
             lastImage?.image = ResultPic7
+        }else if(operation == 8 && operation2 == 2){
+            lastImage?.image = ResultPic25
         }else if(operation == 1 && operation2 == 3){
             lastImage?.image = ResultPic10
         }else if(operation == 2 && operation2 == 3){
@@ -99,7 +107,9 @@ class FifthViewController: UIViewController, UINavigationControllerDelegate, UII
         }else if(operation == 6 && operation2 == 3){
             lastImage?.image = ResultPic3
         }else if(operation == 7 && operation2 == 3){
-            lastImage?.image = ResultPic8
+            lastImage?.image = ResultPic26
+        }else if(operation == 8 && operation2 == 3){
+            lastImage?.image = ResultPic27
         }
 
         

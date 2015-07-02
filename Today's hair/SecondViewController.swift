@@ -39,10 +39,10 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //------------------------ここから下にクイズを書く------------------------//
-        questionArray.append(["今日の前髪の気分は？","斜め","センター分け","アップ"])
+        questionArray.append(["今日の前髪の気分は？","アップ","センター分け","斜め"])
         questionArray.append(["もみあげはどうする？","2ブロック","ナチュラル","ロング"])
-        questionArray.append(["後ろ髪はどうする？？","ショート","アラウンド","ロング"])
-        questionArray.append(["新しい髪型にチャレンジするなら？？","ショート","坊主","ロング"])
+        questionArray.append(["後ろ髪はどうする？","ショート","アラウンド","ロング"])
+        questionArray.append(["今日の気分は？","なんか元気ない...","眠いなぁ","Happy!!"])
         
         //------------------------ここから下にクイズを書く------------------------//
         choiceQuiz()

@@ -34,16 +34,16 @@ class ThirdViewController: UIViewController {
         
         
         
-        if(pointbox <= 3){
+        if(pointbox <= 4){
             resultImage.image = ResultPic0
             resultlabel1.text = String(format: "Short Set")
             
-        }else if(pointbox >= 4 && 7 > pointbox ){
+        }else if(pointbox >= 5 &&  pointbox < 10 ){
             resultImage.image = ResultPic1
             resultlabel1.text = String(format: "Long Set!!!!")
-        }else if(pointbox > 6){
+        }else if(pointbox >= 10){
             resultImage.image = ResultPic2
-            resultlabel1.text = String(format: "Parma Set!!!!")
+            resultlabel1.text = String(format: "Perm Set!!!!")
         }
         
                 
