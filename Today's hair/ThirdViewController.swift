@@ -14,7 +14,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var resultlabel1 :UILabel!
     @IBOutlet weak var resultImage :UIImageView!
     let ResultPic0: UIImage! = UIImage(named: "11.jpg")
-    let ResultPic1: UIImage! = UIImage(named: "10.jpg")
+    let ResultPic1: UIImage! = UIImage(named: ".jpg")
     let ResultPic2: UIImage! = UIImage(named: "19.jpg")
     
      /*
